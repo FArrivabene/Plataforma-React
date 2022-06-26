@@ -1,6 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { DefaultUi, Player, Youtube } from "@vime/react";
-import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-react";
+import { Bicycle, CaretRight, DiscordLogo, FileArrowDown, Globe, Lightning } from "phosphor-react";
 
 import '@vime/core/themes/default.css'
 
@@ -89,9 +89,9 @@ if (!data) {
                     </div>
 
                         <div className="flex flex-col gap-4">
-                            <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
-                                <DiscordLogo size={24} />
-                            Comunidade do Discord
+                            <a href="https://www.decathlon.pt/p/btt-all-mountain-am-100-s/_/R-p-309661?mc=8586941" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+                                <Bicycle size={24} />
+                            Minha bicicleta Rockrider
                             </a>
 
                             <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-700 transition-colors">
@@ -102,14 +102,14 @@ if (!data) {
                     </div>
 
                     <div className="gap-8 mt-20 grid grid-cols-2">
-                        <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+                        <a href="https://www.decathlon.pt/sport/c0-todos-os-desportos/c1-ciclismo/_/N-19bm1kb" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                             <div className="bg-green-700 h-full p-6 flex items-center">
-                                <FileArrowDown size={40}/>
+                                <Globe size={40}/>
                             </div>
                             <div className="py-6 leading-relaxed ">
-                                <strong>Material Complementar</strong>
+                                <strong>Ciclismo Decathlon Portugal</strong>
                                 <p className="text-sm text-gray-200 mt-2">
-                                Acesse o material complementar para acelerar o seu desenvolvimento
+                                Escolha a bicicleta que mais se adequa em função do tipo de terreno: BTT montanha e trilhos 100% terra.
                                 </p>
                             </div>
                             <div className="h-full p-6 flex items-center">
@@ -119,12 +119,12 @@ if (!data) {
 
                         <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                             <div className="bg-green-700 h-full p-6 flex items-center">
-                                <FileArrowDown size={40}/>
+                                <Bicycle size={40}/>
                             </div>
                             <div className="py-6 leading-relaxed ">
-                                <strong>Material Complementar</strong>
+                                <strong>Bicicletas BTT Rockrider</strong>
                                 <p className="text-sm text-gray-200 mt-2">
-                                Acesse o material complementar para acelerar o seu desenvolvimento
+                                As bicicletas de BTT ROCKRIDER são projetadas para andar em todos os tipos de terreno.
                                 </p>
                             </div>
                             <div className="h-full p-6 flex items-center">
