@@ -117,7 +117,7 @@ if (!data) {
                             </div>
                         </a>
 
-                        <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+                        <a href="https://www.decathlon.pt/browse/c0-todos-os-desportos/c1-ciclismo/c3-bicicletas-btt/_/N-n96klt" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                             <div className="bg-green-700 h-full p-6 flex items-center">
                                 <Bicycle size={40}/>
                             </div>
